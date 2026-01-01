@@ -669,12 +669,28 @@
         font-size: 11px;
     }
 
+    .title-content, .title-text{
+        white-space: normal !important;
+    }
+
+    .table-container .table-body th,
+    .table-container .table-body td {
+        white-space: normal !important;
+    }
+
+
     .qr-code-header-section img,
     .Qr_code img {
         /* display: flex;
   align-items: center;
   justify-content: center; */
         height: 55px !important;
+    }
+
+    .title-label-container .title-content:nth-child(2) .title-text {
+        min-width: 0 !important;
+        word-wrap: break-word !important;
+        overflow-wrap: anywhere !important;
     }
 
     .footer-table>tr>td {
